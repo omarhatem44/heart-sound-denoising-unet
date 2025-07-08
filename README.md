@@ -70,7 +70,7 @@ python src/train_unet.py
 ---
 ## 👤 Author
 
-**Omar Hatem El-Laban**  
+**Omar El-Laban**  
 [GitHub](https://github.com/omarhatem99) | [LinkedIn](https://www.linkedin.com/in/omar-ellaban-355ba4369)
 
 ---
