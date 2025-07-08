@@ -1,6 +1,6 @@
 # Heart Sound Denoising using 1D U-Net
 
-## Project Summary
+## 📌 Project Summary
 
 This project implements a deep learning solution for denoising heart sound recordings (Phonocardiograms - PCG) using a 1D U-Net architecture.  
 The model takes noisy heart audio recordings and outputs a cleaned version by suppressing background and environmental noise.  
@@ -8,7 +8,7 @@ It is intended for use in digital stethoscopes, clinical diagnostics, and medica
 
 ---
 
-## Objectives
+## 🎯 Objectives
 
 - Improve clarity in noisy PCG recordings
 - Preserve diagnostic heart features such as S1, S2, and murmurs
@@ -17,7 +17,7 @@ It is intended for use in digital stethoscopes, clinical diagnostics, and medica
 
 ---
 
-## Model Architecture
+## 🧠 Model Architecture
 
 The model uses a 1D U-Net architecture, composed of:
 
@@ -29,7 +29,7 @@ The model uses a 1D U-Net architecture, composed of:
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 heart-sound-denoising-unet/
 ├── model/
@@ -43,7 +43,7 @@ heart-sound-denoising-unet/
 
 ---
 
-## Getting Started
+## 🚀Getting Started
 
 1. Install Requirements
 ```bash
@@ -60,7 +60,7 @@ python src/train_unet.py
 ```
 ---
 
-## Future Improvements
+## 🔮Future Improvements
 
 -Add a real-time denoising interface
 -Visualize spectrograms (before vs after)
@@ -68,9 +68,9 @@ python src/train_unet.py
 -Create a REST API or deploy on mobile devices
 
 ---
-## Author
+## 👤 Author
 
-**Omar Hatem Mohamed Emam El-Laban**  
+**Omar Hatem El-Laban**  
 [GitHub](https://github.com/omarhatem99) | [LinkedIn](https://www.linkedin.com/in/omar-ellaban-355ba4369)
 
 ---
