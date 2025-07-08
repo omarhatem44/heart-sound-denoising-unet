@@ -43,6 +43,23 @@ heart-sound-denoising-unet/
 
 ---
 
+## Getting Started
+
+1. Install Requirements
+```bash
+pip install -r requirements.txt
+```
+2. Run Inference
+Replace `your_noisy_file.wav` with your input audio:
+```bash
+python src/inference.py --input your_noisy_file.wav --output denoised.wav
+```
+3. Train the Model (Optional)
+```bash
+python src/train_unet.py
+```
+---
+
 ## Future Improvements
 
 -Add a real-time denoising interface
